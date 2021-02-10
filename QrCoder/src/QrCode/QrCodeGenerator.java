@@ -84,5 +84,8 @@ public class QrCodeGenerator {
     	 * Parameter  2 is The Name Image
     	 */
     	DrawImage.DrawQr(moduleMatrix,ImageName);
+    	
+    	//Message 
+    	System.out.println("Done successfully");
 	}
 }
